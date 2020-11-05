@@ -1,0 +1,67 @@
+{
+  "_embedded" : {
+    "ingredients" : [ {
+      "id" : 1,
+      "name" : "cheese",
+      "remaining" : 0.12345,
+      "createdAt" : "2020-11-01T11:14:32.000+00:00",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8002/ingredients/1"
+        },
+        "ingredient" : {
+          "href" : "http://localhost:8002/ingredients/1"
+        },
+        "recipeXIngredients" : {
+          "href" : "http://localhost:8002/ingredients/1/recipeXIngredients"
+        }
+      }
+    }, {
+      "id" : 2,
+      "name" : "bread",
+      "remaining" : 1000.0,
+      "createdAt" : "2020-11-01T11:14:32.000+00:00",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8002/ingredients/2"
+        },
+        "ingredient" : {
+          "href" : "http://localhost:8002/ingredients/2"
+        },
+        "recipeXIngredients" : {
+          "href" : "http://localhost:8002/ingredients/2/recipeXIngredients"
+        }
+      }
+    }, {
+      "id" : 3,
+      "name" : "pepper",
+      "remaining" : 200.122,
+      "createdAt" : "2020-11-01T11:14:32.000+00:00",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8002/ingredients/3"
+        },
+        "ingredient" : {
+          "href" : "http://localhost:8002/ingredients/3"
+        },
+        "recipeXIngredients" : {
+          "href" : "http://localhost:8002/ingredients/3/recipeXIngredients"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8002/ingredients"
+    },
+    "profile" : {
+      "href" : "http://localhost:8002/profile/ingredients"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "name": "basilico",
+    "remaining": 5.6,
+    "createdAt": "2020-11-01T11:14:32.000+00:00",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8002/ingredients/1"
+        },
+        "ingredient": {
+            "href": "http://localhost:8002/ingredients/1"
+        },
+        "recipeXIngredients": {
+            "href": "http://localhost:8002/ingredients/1/recipeXIngredients"
+        }
+    }
+}
